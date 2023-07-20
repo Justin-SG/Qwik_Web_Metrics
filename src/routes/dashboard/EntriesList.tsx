@@ -49,4 +49,4 @@ function EntriesList({ bookings }: Props) {
 	)
 }
 
-export default qwikify$(EntriesList, { eagerness: 'visible' });
+export default qwikify$(EntriesList, { eagerness: 'hover' });

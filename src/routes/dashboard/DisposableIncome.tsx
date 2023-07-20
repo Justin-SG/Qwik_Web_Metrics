@@ -35,4 +35,4 @@ function DisposableIncome() {
 	)
 }
 
-export default qwikify$(DisposableIncome, { eagerness: 'visible' });
+export default qwikify$(DisposableIncome, { eagerness: 'hover' });

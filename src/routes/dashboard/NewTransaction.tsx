@@ -134,4 +134,4 @@ function NewTransaction() {
     )
 }
 
-export default qwikify$(NewTransaction, { eagerness: 'visible' });
+export default qwikify$(NewTransaction, { eagerness: 'hover' });
