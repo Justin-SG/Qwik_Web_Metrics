@@ -259,4 +259,4 @@ function  FaqComponent() {
   );
 }
 
-export default qwikify$(FaqComponent, { eagerness: 'hover' });
+export default qwikify$(FaqComponent, { eagerness: 'load' });

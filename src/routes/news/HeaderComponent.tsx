@@ -373,4 +373,4 @@ function HeaderComponent() {
   );
 }
 
-export default qwikify$(HeaderComponent, { eagerness: 'hover' });
+export default qwikify$(HeaderComponent, { eagerness: 'load' });

@@ -75,4 +75,4 @@ function ImageCarousel({ posts }: Props) {
   );
 }
 
-export default qwikify$(ImageCarousel, { eagerness: 'hover' });
+export default qwikify$(ImageCarousel, { eagerness: 'load' });
