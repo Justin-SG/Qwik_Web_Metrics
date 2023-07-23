@@ -28,10 +28,7 @@ function EntriesList({ bookings }: Props) {
 							</div>
 							<div className="hide-scrollbar row-span-2 my-auto flex overflow-x-scroll rounded-full text-sm"></div>
 							<div className="xl:text-lg-custom text-right text-base">
-								{booking.amount?.toLocaleString(undefined, {
-									minimumFractionDigits: 2,
-									maximumFractionDigits: 2,
-								})} €
+								{booking.amount} €
 							</div>
 							<div className="truncate text-sm text-gray-500">
 								{booking.description}
